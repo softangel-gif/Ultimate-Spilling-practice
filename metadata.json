@@ -1,0 +1,6 @@
+{
+  "name": "English Practice",
+  "description": "Practice English writing, listening, spelling, and essay skills with instant AI feedback.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
