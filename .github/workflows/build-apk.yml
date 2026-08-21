@@ -18,8 +18,7 @@ jobs:
           java-version: '17'
 
       - name: Generate Gradle wrapper
-        run: gradle wrapper --gradle-version 8.7
-
+        run: gradle wrapper --gradle-version 9.3.1
       - name: Grant execute permission for gradlew
         run: chmod +x gradlew
 
