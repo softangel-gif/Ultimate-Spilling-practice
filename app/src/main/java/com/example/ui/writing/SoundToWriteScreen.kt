@@ -83,7 +83,6 @@ fun SoundToWriteScreen(
         modifier = Modifier
             .fillMaxSize()
             .background(MaterialTheme.colorScheme.background)
-            .windowInsetsPadding(WindowInsets.safeDrawing)
     ) {
         // Tab selector
         TabRow(selectedTabIndex = selectedTab) {

@@ -131,7 +131,6 @@ fun ListeningPracticeScreen(
         modifier = Modifier
             .fillMaxSize()
             .background(MaterialTheme.colorScheme.background)
-            .windowInsetsPadding(WindowInsets.safeDrawing)
     ) {
         TabRow(selectedTabIndex = selectedTab) {
             Tab(

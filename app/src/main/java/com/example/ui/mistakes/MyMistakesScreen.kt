@@ -43,7 +43,6 @@ fun MyMistakesScreen(
         modifier = Modifier
             .fillMaxSize()
             .background(MaterialTheme.colorScheme.background)
-            .windowInsetsPadding(WindowInsets.safeDrawing)
             .padding(16.dp)
     ) {
         Row(
